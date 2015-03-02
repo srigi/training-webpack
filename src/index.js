@@ -3,6 +3,6 @@
 
 var lovalot = new Bike('Lovalot');
 
-lovalot.drive();
-lovalot.signalsRing();
-Bike.someStaticShit();
+console.log( lovalot.drive() );
+console.log( lovalot.signalsRing() );
+console.log( Bike.someStaticShit() );
