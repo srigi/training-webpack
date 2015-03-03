@@ -2,7 +2,7 @@
 
 
 var Vehicle = function(name) {
-  this.name = name
+  this.name = name;
 };
 
 Vehicle.prototype.drive = function() {
