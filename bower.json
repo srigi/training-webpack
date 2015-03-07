@@ -1,7 +1,5 @@
 {
   "name": "webpack-training",
   "version": "0.1.0",
-  "dependencies": {
-    "lodash": "~3.4.0"
-  }
+  "dependencies": {}
 }
