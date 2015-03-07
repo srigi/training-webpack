@@ -13,7 +13,13 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.css$/,
-        loaders: ['style', 'css']}
+        loaders: ['style', 'css']},
+
+      { test: /\.jpg$/,
+        loader: 'url?limit=8192&mimetype=image/jpeg'},
+
+      { test: /\.png$/,
+        loader: 'url?limit=8192&mimetype=image/png'}
     ]
   }
 };
