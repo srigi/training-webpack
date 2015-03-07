@@ -1,7 +1,7 @@
 'use strict';
 
-require('./index.css');
-var Bike = require('./lib/bike');
+import './index.css';
+import Bike  from './lib/bike';
 
 var lovalot = new Bike('Lovalot');
 
