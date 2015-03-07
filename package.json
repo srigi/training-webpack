@@ -1,7 +1,9 @@
 {
   "name": "webpack-training",
   "version": "0.1.0",
-  "scripts": {},
+  "scripts": {
+    "build:dev": "webpack --progress"
+  },
   "dependencies": {
     "lodash": "^3.4.0"
   },
