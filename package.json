@@ -2,13 +2,15 @@
   "name": "webpack-training",
   "version": "0.1.0",
   "scripts": {
-    "build:dev": "webpack --progress"
+    "build:dev": "webpack --progress",
+    "server:dev": "webpack-dev-server --content-base src --port 8000 --progress"
   },
   "dependencies": {},
   "devDependencies": {
     "css-loader": "^0.9.1",
     "style-loader": "^0.8.3",
     "url-loader": "^0.5.5",
-    "webpack": "^1.7.2"
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0"
   }
 }
