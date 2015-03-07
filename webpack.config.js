@@ -1,5 +1,8 @@
 'use strict';
 
+var path = require('path');
+var webpack = require('webpack');
+
 
 module.exports = {
   entry: {
@@ -21,5 +24,17 @@ module.exports = {
       { test: /\.png$/,
         loader: 'url?limit=8192&mimetype=image/png'}
     ]
-  }
+  },
+
+  resolve: {
+    alias: {
+      bower: path.join(__dirname, 'bower_components')
+    }
+  },
+
+  plugins: [
+    new webpack.ResolverPlugin(
+      new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main'])
+    )
+  ]
 };

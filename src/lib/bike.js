@@ -1,7 +1,7 @@
 'use strict';
 
 var Vehicle = require('./vehicle');
-var _ = require('lodash');
+var _ = require('bower/lodash');
 
 
 var Bike = function(name) {
