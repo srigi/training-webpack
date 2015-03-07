@@ -1,20 +1,13 @@
 'use strict';
 
-var Vehicle = require('./vehicle');
-var _ = require('bower/lodash');
+import Vehicle from './vehicle';
 
 
-var Bike = function(name) {
-  Vehicle.call(this, name);
-};
-
-Bike.prototype = Object.create(Vehicle.prototype);
-
-Bike.prototype.signalsRing = function() {
-  return this.name + ' is ringing';
-};
-
-_.defaults(Bike, Vehicle);
+class Bike extends Vehicle {
+  signalsRing() {
+    return this.name + ' is ringing';
+  }
+}
 
 
-module.exports = Bike;
+export default Bike;

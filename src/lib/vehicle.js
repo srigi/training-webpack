@@ -1,17 +1,19 @@
 'use strict';
 
 
-var Vehicle = function(name) {
-  this.name = name;
-};
+class Vehicle {
+  constructor(name) {
+    this.name = name;
+  }
 
-Vehicle.prototype.drive = function() {
-  return this.name + ' is driving';
-};
+  drive() {
+    return this.name + ' is driving';
+  }
 
-Vehicle.someStaticShit = function() {
-  return 'Vehicle::someStaticShit';
-};
+  static someStaticShit() {
+    return 'Vehicle::someStaticShit';
+  }
+}
 
 
-module.exports = Vehicle;
+export default Vehicle;
