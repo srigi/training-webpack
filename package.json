@@ -3,5 +3,7 @@
   "version": "0.1.0",
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^1.7.2"
+  }
 }
