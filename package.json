@@ -6,6 +6,8 @@
     "lodash": "^3.4.0"
   },
   "devDependencies": {
+    "css-loader": "^0.9.1",
+    "style-loader": "^0.8.3",
     "webpack": "^1.7.2"
   }
 }
