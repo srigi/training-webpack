@@ -1,5 +1,6 @@
 'use strict';
 
+var Bike = require('./lib/bike');
 
 var lovalot = new Bike('Lovalot');
 

@@ -2,7 +2,9 @@
   "name": "webpack-training",
   "version": "0.1.0",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^3.4.0"
+  },
   "devDependencies": {
     "webpack": "^1.7.2"
   }

@@ -12,3 +12,6 @@ Vehicle.prototype.drive = function() {
 Vehicle.someStaticShit = function() {
   return 'Vehicle::someStaticShit';
 };
+
+
+module.exports = Vehicle;

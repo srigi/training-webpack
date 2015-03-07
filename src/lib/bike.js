@@ -1,5 +1,8 @@
 'use strict';
 
+var Vehicle = require('./vehicle');
+var _ = require('lodash');
+
 
 var Bike = function(name) {
   Vehicle.call(this, name);
@@ -12,3 +15,6 @@ Bike.prototype.signalsRing = function() {
 };
 
 _.defaults(Bike, Vehicle);
+
+
+module.exports = Bike;
